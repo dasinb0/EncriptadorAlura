@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+    <h1>Encriptador de texto</h1>
+    <label for="texto">Texto:</label>
+    <textarea id="texto" rows="4"></textarea>
+    <br>
+    <label for="accion">Acción:</label>
+    <select id="accion">
+        <option value="encriptar">Encriptar</option>
+        <option value="desencriptar">Desencriptar</option>
+    </select>
+    <br>
+    <button id="procesar">Procesar</button>
+    <br>
+    <label for="resultado">Resultado:</label>
+    <textarea id="resultado" rows="4" readonly></textarea>
+    <br>
+    <button id="copiar">Copiar</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
